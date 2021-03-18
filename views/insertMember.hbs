@@ -1,0 +1,26 @@
+<div class="container my-4 bg-dark">
+<h2 class="text-white">{{title}}</h2>
+<form method="POST" action="{{ACTION}}">
+    <div class="form-group">
+        <label for="fullName" class="form-label text-white">Full Name:</label>
+        <input type="text" name="fullName" class="form-control" placeholder="Full Name" value="{{member.fullName}}" aria-describedby="nameHelp">
+        <div id="nameHelp" class="form-text text-white">This field is required</div>
+    </div>
+    <div class="form-group">
+        <label for="email" class="form-label text-white">Email:</label>
+        <input type="email" name="email" value="{{member.email}}" placeholder="Email" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="telephone" class="form-label text-white">Tel:</label>
+        <input type="text" class="form-control" name="telephone" value="{{member.telephone}}" placeholder="Telephone">
+    </div>
+    <div class="form-group">
+        <label for="address" class="form-label text-white">Address:</label>
+        <input type="text" class="form-control" name="address" value="{{member.address}}" placeholder="Address">
+    </div>
+    <div class="form-group p-2">
+        <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Submit</button>
+        <a class="btn btn-secondary" href="/"><i class="fa fa-list-alt"></i> View All</a>
+    </div>
+</form>
+</div>
