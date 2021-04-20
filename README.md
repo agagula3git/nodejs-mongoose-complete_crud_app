@@ -1,5 +1,5 @@
 # Node.Js Complete Crud App - The Register of Members
- 
+A complete user registration system using Node Js and mongoose library for MongoDB.
 ## Requirements 
 * express @4.17.1
 * body-parser @1.19.0
@@ -12,11 +12,11 @@
 Complete crud app that is used to register members and keep their information in a table. If you wanna register a new member you are required to enter the basic information through the simple form. The table of registered members is on the homepage and you can change its content at any time.  
 The layout of home page is given by the following image:  
   
-<img src="images/test1.PNG" width="50%" height="50%">   
+<img src="images/test1.PNG" width="50%" height="50%">    
 From the homepage, you can get to the registration page by clicking on the Create new button.  
   
-   
-<img src="images/test2.PNG" width="50%" height="50%">
+    
+<img src="images/test2.PNG" width="60%" height="50%">
 
 ## Installation
 Create a package.json file
@@ -138,3 +138,8 @@ app.set('views', path.join(__dirname, '/views/'));
 app.engine('hbs', exphbs({ extname: 'hbs', defaultLayout: 'main', layoutsDir: __dirname + '/views/layouts'}));
 app.set('view engine', 'hbs');
 ```
+## 🙌 Contribution
+I hope that this project will help you to unlock new ideas and improve your skills. Should you need any further information, please do not hesitate to [contact](mailto:agagula3@etf.unsa.ba) me.  
+  
+Best regards,  
+Ajdin G.
